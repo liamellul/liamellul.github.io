@@ -1,13 +1,126 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Liam Ellul&#39;s Blog</title>
+    <title>Tags on Liam Ellul&#39;s Website</title>
     <link>https://liamellul.github.io/tags/</link>
-    <description>Recent content in Tags on Liam Ellul&#39;s Blog</description>
+    <description>Recent content in Tags on Liam Ellul&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://liamellul.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Customer Discovery</title>
+      <link>https://liamellul.github.io/posts/customer-discovery/</link>
+      <pubDate>Fri, 22 Sep 2023 11:30:59 -0700</pubDate>
+      
+      <guid>https://liamellul.github.io/posts/customer-discovery/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;include a header image of a midjourney generated pioneer panning for gold in an alpine stream&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&amp;rsquo;m going to share the process I follow for B2B customer discovery. This is most relevant to early stage projects before a revenue model has been solidified and when product market fit requires more validation. It also assumes that the team is entering a new market where networks have yet to be established.&lt;/p&gt;
+&lt;p&gt;I distinguish this from an outbound sales process, though successful customer discovery should evolve into a B2B sales process as it becomes more opinionated.&lt;/p&gt;
+&lt;p&gt;This is an opportunity to get everything out of my head and put it down to share with others to refine the practice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I will cover:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Targeting and outreach for discovery calls.&lt;/li&gt;
+&lt;li&gt;Creating value within an appointment.&lt;/li&gt;
+&lt;li&gt;Managing and nurturing client engagements.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First however, I want to drill into the key problem that all of this is trying to solve: the cold start problem.&lt;/p&gt;
+&lt;h3 id=&#34;the-cold-start-problem&#34;&gt;The Cold Start Problem&lt;/h3&gt;
+&lt;p&gt;Also known as the &amp;ldquo;chicken and the egg problem&amp;rdquo; or a &lt;a href=&#34;https://en.wikipedia.org/wiki/Catch-22_(logic)&#34;&gt;catch-22&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you need meetings with prospects to validate a solution.&lt;/li&gt;
+&lt;li&gt;you need a validated solution for prospects to meet with you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This paradox pervades the entire process when validating product market fit because you&amp;rsquo;re not selling an existing product. You&amp;rsquo;re selling the future expectation of one, you need to find resonance with the customer on the right thing and they must have faith that with commitment you will manifest what they&amp;rsquo;ve been searching for to maintain engagement to the point they begin using the product.&lt;/p&gt;
+&lt;p&gt;It is time to move through the Dante&amp;rsquo;s inferno of early technology development.&lt;/p&gt;
+&lt;h1 id=&#34;the-process&#34;&gt;The Process&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-targeting-outreach--follow-ups&#34;&gt;1. Targeting, Outreach &amp;amp; Follow-ups&lt;/h2&gt;
+&lt;p&gt;The targeting and outreach process is the tasks involved to schedule relevant appointments with who you think your target customer is. The key outcome from this activity is the number of appointments you sit per outreach campaign. In this way it is indistinguishable for the tasks for a BDR but with far more experimentation. Lets get some of my terminology out of the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Target&lt;/strong&gt; is a person (Name, Company, Position, Contact) you will be reaching out to.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outreach&lt;/strong&gt; is the process of reaching out to the Target and following up if they don&amp;rsquo;t respond and providing further information if they do respond. This is typically through channels such as LinkedIn, Twitter, Email, Phone or Referral. Campaigns typically employ multiple channels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Campaign&lt;/strong&gt; is the process of collecting a list of targets contact information and then reaching out to them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Appointment&lt;/strong&gt; this is the discovery call where you will be producing value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So who do we target? This will almost always take trial and error and campaign retrospectives with the broader team are critical to fine tuning this based on the evidence you collect. Take trial and error, but generally it is the person with discretion and authority over budget allocations and who is negatively impacted by the problem you are solving.&lt;/p&gt;
+&lt;h3 id=&#34;a-note-on-tooling&#34;&gt;A note on tooling&lt;/h3&gt;
+&lt;p&gt;I use process automation tools, but this is secondary. I got some great advice once:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;If you ever run into an automation problem: Google &amp;ldquo;tool for fixing X problem&amp;rdquo; and there will be a dev team somewhere in Eastern Europe that has a B2B SaaS app that solves the problem.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&amp;rsquo;ll include details on my own tooling but the key is the communication you&amp;rsquo;re putting out as opposed to how to automate things, trust there will be tools for you and don&amp;rsquo;t start shopping until you are blocked and have clear requirements. There is no magic bullet!&lt;/p&gt;
+&lt;h3 id=&#34;targeting&#34;&gt;Targeting&lt;/h3&gt;
+&lt;p&gt;This is where you define who you want to contact and obtain their contact information. I tend to start this search for companies based on industry, location, and headcount as a first step. Once I have a list of companies I then filter for specific position names which can be used to get more contact information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The following will get a list of Names, Job Titles, LinkedIn URLs, emails and phone numbers:&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I use Crunchbase or Sales Navigator to filter for companies based on location, industry, size etc.&lt;/li&gt;
+&lt;li&gt;I then use Sales Navigator to filter for people at the companies (e.g. CXO). People typically have their first and last names and their most recent company updated so it is a good primary data source.&lt;/li&gt;
+&lt;li&gt;Once I have the query I use Evaboot to extract a CSV of all of the people&amp;rsquo;s names from LinkedIn within a search query, positions and LinkedIn profiles.&lt;/li&gt;
+&lt;li&gt;I also use this primary data to get phone numbers and business emails.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;outreach--follow-ups&#34;&gt;Outreach &amp;amp; Follow-Ups&lt;/h3&gt;
+&lt;p&gt;This is the process of defining your outreach channel, messages, when to do follow ups and any related information packs/ decks you need.&lt;/p&gt;
+&lt;p&gt;I prefer a softer approach for reaching out to people I don&amp;rsquo;t have a relationship with by sending LinkedIn connection requests with all of targets and interacting with their content. If they accept my connection request, I then message them and follow up if they don&amp;rsquo;t reply. LinkedIn might be useless for you but lots of buyers in this campaign are active on LinkedIn&lt;/p&gt;
+&lt;p&gt;On average I get about 50% connection rate and a 10% reply rate of which about 30% who reply (3% net) set appointments. This is mostly a byproduct of people not using LinkedIn. So after a couple of weeks it&amp;rsquo;s best to try a different approach for those who aren&amp;rsquo;t active on LinkedIn.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Configure a campaign sequence in Dripify to connect, interact with LinkedIn content automatically. The most important part here is the opening message you send. This takes trial and error to get right. There are many resources on writing copy that hooks.&lt;/li&gt;
+&lt;li&gt;Feed the CSV of Linkedin URL profiles into the Dripify and begin the campaign.&lt;/li&gt;
+&lt;li&gt;Scheduling links are generally accepted. If on the fence many will ask for an email with more info. Send this as a &lt;em&gt;sequence&lt;/em&gt; so you don&amp;rsquo;t have to put energy into manual follow-ups.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Sequences&lt;/strong&gt; refer to an automated string of prompts to follow up with the contact.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is what it looks like in diagramed form:
+&lt;img src=&#34;https://liamellul.github.io/assets/images/linkedin-flow.png&#34; alt=&#34;image2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you get desperate there are many partnership forms on company websites. Just make sure it isn&amp;rsquo;t going through to a sales team for a product demo. This will be a waste of your time for both you and them.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-creating-value-in-appointments&#34;&gt;2. Creating value in appointments&lt;/h2&gt;
+&lt;p&gt;It is only when you are learning the needs of your prospect and developing trust and commitment to buy that a customer development function is producing value for the broader project, namely two other functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Product development: providing information to prioritize and assess viability of inital product requirements.&lt;/li&gt;
+&lt;li&gt;Content development: providing the bare bones messaging that marketing can use to produce inbound demand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The important point here is you want to be 51% question based selling and 49% user researching, meaning that your bias is always to qualify and secure increasingly explicit commitment while internalizing the &amp;ldquo;voice of customer&amp;rdquo; in the project team.&lt;/p&gt;
+&lt;h3 id=&#34;the-alchemy-of-customer-discovery&#34;&gt;The Alchemy of Customer Discovery&lt;/h3&gt;
+&lt;p&gt;Below I&amp;rsquo;ve tried my best to illustrate visually the process of defining the requirements for the first validated product release, popularly known as the Minimum Viable Product (MVP). The diagram below shows what I call the &lt;em&gt;Alchemy of Customer Discovery&lt;/em&gt; which addresses the cold start problem by producing faith in prospects and your developers in order to actualize a successful go-to market.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/assets/images/customer-development.jpg&#34; alt=&#34;image2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here you are constantly redeveloping the content in your decks mock-up demos based on collecting and curating the customer wants and needs. &amp;ldquo;What you offer&amp;rdquo; is really a consensus between multiple customers. Additional features are an extension of this process after paying customers are using the product.&lt;/p&gt;
+&lt;h3 id=&#34;tools-and-admin&#34;&gt;Tools and admin&lt;/h3&gt;
+&lt;p&gt;Use transcription tools or take notes and always ensure that notes with verbatum quotes are available to all in the project, the technical teams will see you as a source of data that helps them prioritize what needs to be built.&lt;/p&gt;
+&lt;h3 id=&#34;common-talking-points&#34;&gt;Common talking points&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Facilitate brief introductions and understand what key problem they are focused on solving within their project.&lt;/li&gt;
+&lt;li&gt;Ask them why they were interested to take the call.&lt;/li&gt;
+&lt;li&gt;Clearly present the value proposition of your project (set a conversational tone and welcome questions).&lt;/li&gt;
+&lt;li&gt;Discuss their needs in more detail and discuss timelines for implementation.&lt;/li&gt;
+&lt;li&gt;Understand if they are speaking with anyone solving a similar problem to you.&lt;/li&gt;
+&lt;li&gt;If disqualified as a good fit, always position &amp;ldquo;as in the future we&amp;rsquo;ll follow up&amp;rdquo; to keep outreach lines open.&lt;/li&gt;
+&lt;li&gt;If qualified always ensure a follow up appointment time is in the calendar. If you fall out of a prospect&amp;rsquo;s calendar it produces the immediate that the engagement will fade away.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-managing-and-nurturing-client-engagements&#34;&gt;3. Managing and Nurturing Client Engagements&lt;/h2&gt;
+&lt;p&gt;The more time you spend on calls with a diverse range of prospects who are engaged and committed the more value you will produce for your project. The process of developing an engagement towards them buying or integrating your offering is inherently consultative and it will take many wins and losses before an opinionated process emerges.&lt;/p&gt;
+&lt;p&gt;As a result there are just a few general rules that apply:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Never leave a call without a new time in the calendar with them.&lt;/li&gt;
+&lt;li&gt;Always have a next action defined. If it is on you, complete it and then follow up. If it is on them chase them. Use the next calendar time as a &amp;ldquo;force function&amp;rdquo;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;if these haven&amp;rsquo;t been explicitly defined and communicated the engagement is high risk of fading away.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Have somewhere where you can track the engagements. CRMs are fine for contact management but the sales stage features will be of little value. The key thing is to have a place where you can track the contacts who are engaged with next actions and notes. If someone wants to stop meeting find out why if possible. Things that end an engagement are critically important data-points.&lt;/p&gt;
+&lt;h2 id=&#34;in-closing&#34;&gt;In closing&lt;/h2&gt;
+&lt;p&gt;Customer development in early stage projects is all about being an &lt;em&gt;alchemical faith maker&lt;/em&gt; in your project. You are giving faith to customers that they are manifesting their true desires with commitment alone. With their commitment you give faith to your developers that they are creating a thing which will have enduring value and use.&lt;/p&gt;
+&lt;p&gt;With diligent expectation management and intent qualification the faith produced by both parties results in a self fulfilling prophecy.&lt;/p&gt;
+</description>
+    </item>
     
     
     
