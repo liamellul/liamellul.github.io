@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+}
+
+<style>
+    .text-only-link {
+        color: inherit; /* This will make the link take on the color of its surrounding text */
+        text-decoration: none; /* This will remove the underline */
+    }
+
+    .text-only-link:hover {
+        text-decoration: underline; /* Optional: This will underline the link when hovered. Remove if not desired. */
+    }
+</style>
