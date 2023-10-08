@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Liam Ellul&#39;s Blog">
+    
+    <link rel="shortcut icon" href="https://liamellul.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://liamellul.github.io/posts/eth-staking/" />
+    <title>Ethereum&#39;s Consensus Mechanism &amp; Staking Solutions</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://liamellul.github.io/">Liam Ellul&#39;s Blog</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Ethereum&#39;s Consensus Mechanism &amp; Staking Solutions</h1>
+        <div>
+                <time>October 3, 2023</time>
+            </div>
+    </header><blockquote>
+<p>Consensus mechanisms are a set of rules that allow decentralized networks to agree on a single version of the truth without a central authority figure.</p>
+</blockquote>
+<h2 id="why-ethereums-consensus-mechanism-changed">Why Ethereum&rsquo;s consensus mechanism changed</h2>
+<hr>
+<p>Last year in response to environmental concerns of how much energy and associated CO2 emissions the Ethereum’s consensus mechanism was using, Ethereum upgraded its consensus mechanism from one relying on computational effort to capital at risk.</p>
+<p>The network’s consensus mechanism was upgraded successfully on 15 September 2022, resulting in an instant decrease of 99.99% is network energy usage.</p>
+<p><img src="/images/customer-discovery/eth-staking/c2a4a4e411dc655e4eced900da39c2d6.png" alt="img2"></p>
+<div align="center"> *[Cambridge Blockchain Network Sustainability Index](https://ccaf.io/cbnsi/ethereum/ethereum_merge)* </div>
+<p><img src="/images/customer-discovery/eth-staking/9698764b2afae25f4f676a37b3fedd91.png" alt="img"></p>
+<ul>
+<li><em><a href="https://digiconomist.net/ethereum-energy-consumption">Via Digiconomist</a></em></li>
+</ul>
+<h2 id="network-participation-change">Network participation change</h2>
+<hr>
+<p>The Ethereum network upgrade reduced the network energy requirements, but also incorporated a system where more individual participants in the Ethereum network can participate in it&rsquo;s consensus mechanism via a new action known as “Staking”.</p>
+<h3 id="-miners-are-out">🚫 Miners are out</h3>
+<p>In the Proof of work phase of Ethereum,  participants called “miners” used powerful computers to solve difficult, arbitrary math puzzles to develop network consensus. By solving hard problems proves that resources were expended by the miner. These costs make it extremely difficult to justify attacking the network and breaking Bitcoin.</p>
+<h3 id="-validators-are-in">✅ Validators are in</h3>
+<p>In the current proof of stake phase of Ethereum the role of miner are replaced by the role of validator. Validators are responsible for verifying the transactions and adding new blocks to the blockchain. They are rewarded for their work with new ETH can can also be punished by losing ETH if they break any rules.</p>
+<p>There are 3 ways to participate in the new consensus mechanism and gain rewards in the Proof of Stake system.</p>
+<h2 id="solo-staking">Solo-staking</h2>
+<hr>
+<p>The most direct way to participate in the Ethereum consensus mechanism is to run your own validator node &ndash; something known as &ldquo;solo-staking&rdquo;. There are some requirements involved here namely:</p>
+<ul>
+<li>You need 32 ETH as a capital requirement (~$55,000 USD as of Oct 2023).</li>
+<li>A dedicated computer/ server to run the validator software.</li>
+<li>Must manage and ensure their node is running and online, or risk penalties.</li>
+<li>A technical understanding of linux and command line tools for node set-up.</li>
+<li>Staked ETH is locked and not accessible.</li>
+</ul>
+<p>This option is the most &ldquo;home grown&rdquo; option and as a result you gain unmediated access to the full reward of validating blocks and transactions, but incurring operational costs.</p>
+<p>It&rsquo;s very cool to see some hardware providers such as <a href="https://dappnode.com/">dappnode</a> attempting to consumerize this experience with dedicated hardware for staking akin to an Apple TV!</p>
+<h2 id="decentralized-staking-pools">Decentralized Staking Pools</h2>
+<hr>
+<p>There is an option with more technical support and lower capital requirements that is worth mentioning and that is Staking Pools. This involves aggregating the stakes of multiple participants to reach the 32 ETH required for a validator. In this pooled model the rewards and penalties are shared among the participants.</p>
+<p>The experience of staking pools is highly dependent on the service. The most novel provider in this space I&rsquo;ve seen is <a href="rocketpool.net">Rocket Pool</a>. They have designed a way to form staking pools in a decentralized manner.</p>
+<p>Rocketpool appeals to participants seeking:</p>
+<ul>
+<li><strong>improved technical support</strong>: they maintain their own node software and have a developer focused community.</li>
+<li><strong>lower capital requirements</strong>: the total cost to become a validator in a &ldquo;mini-pool&rdquo; is 10.4 ETH rather than 32 ETH. The big catch here is that 2.4 ETH worth of this needs to be purchased as <a href="https://www.coingecko.com/en/coins/rocket-pool">$RPL</a> which introduces real price risk and mixes in the investment from one purely as ETH to also the $RPL token.</li>
+<li><strong>differentiated commercial offer</strong>: Rocketpool has an interesting commission model whereby the rate adjusts based on the ratio of node operators to stakers within the network.</li>
+</ul>
+<p><strong>Rocketpool risks</strong>
+The two ky risks for Rocketpool &ldquo;mini-pool&rdquo; participants is smart contract risk and also notably the price risk on $RPL collateral.</p>
+<p>There are other projects building decentralized staking pools such as <a href="https://twitter.com/divastaking">Diva staking</a> but this project is still early in development and not yet in full production. From their initial designs it looks as though the risk exposure of the participant it entirely contained to ETH price action and smart contract risk.</p>
+<h2 id="liquid-staking">Liquid Staking</h2>
+<hr>
+<p>Liquid Staking is the most accessible and popular kind of participation by ETH holders in the consensus mechanism of Ethereum. It allows a participant to stake their ETH while remaining while still having a liquid, transferable representation of their staked assets. This is achieved through receiving a Liquid Staking Token (LST) which is a receipt that can exchanged for the ETH deposit + staking fees or penalties incurred. While more accessible to smaller ETH holders to stake their ETH the LST token is also recognized by DeFi protocols who accept it as a collateral for loans.</p>
+<p>There are a number of providers of liquid staking the main ones being:</p>
+<table>
+<thead>
+<tr>
+<th>Liquid staking provider:</th>
+<th>LST name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://defillama.com/protocol/lido">Lido</a></td>
+<td>stETH</td>
+</tr>
+<tr>
+<td><a href="https://defillama.com/protocol/rocket-pool">Rocketpool</a></td>
+<td>rETH</td>
+</tr>
+<tr>
+<td><a href="https://defillama.com/protocol/binance-staked-eth">Binance ETH Staking</a></td>
+<td>wBETH</td>
+</tr>
+<tr>
+<td><a href="https://defillama.com/protocol/frax-ether">Frax Ether</a></td>
+<td>sfrxETH</td>
+</tr>
+</tbody>
+</table>
+<p>There is currently controversy around which solution is &ldquo;best&rdquo; and this area is constantly evolving so I expect many changes and new innovations to occur around how ETH Stake is acquired and distributed.</p>
+<p>At the time of writing Lido is by far the most popular solution comprising ~77% of all liquid staking and ~32% of all ETH Staked. This is due to stETH&rsquo;s integration with other DeFi dApps such as decentralized exchanges and loan providers.</p>
+<h2 id="summing-up">Summing up</h2>
+<hr>
+<p>This is the first a dip in the water as I learn more about the inner workings of Ethereum. I wanted could have gone much deeper into specific solutions and their mechanics but I will keep this one pretty high level.</p>
+<p>The TLDR is that Ethereum changed how it worked to allow participants to Stake ETH to validate transactions. This resulted in a wave of solutions to help participants Stake their ETH based on their preferences.</p>
+<p>We are only one year in post merge so I expect much more innovation to occur into the future!</p>
+</article>
+
+        </main><footer id="footer" class="">
+    <style>
+        .text-only-link {
+            color: inherit;
+             
+            text-decoration: none;
+             
+        }
+
+        .text-only-link:hover {
+            text-decoration: underline;
+             
+        }
+
+        .hide-footer {
+            display: none;
+             
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    © 2023 |
+    <a href="https://twitter.com/liamellul" target="_blank" class="text-only-link" rel="noopener noreferrer">@liamellul
+    </a>
+</footer></body>
+</html>
