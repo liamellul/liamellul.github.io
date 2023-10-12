@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Ethereum&#39;s Consensus Mechanism &amp; Staking Solutions</title>
+      <title>Ethereum&#39;s Consensus &amp; Staking Solutions</title>
       <link>https://liamellul.github.io/posts/eth-staking/</link>
       <pubDate>Tue, 03 Oct 2023 19:53:12 +0200</pubDate>
       
@@ -21,17 +21,17 @@
 &lt;p&gt;Consensus mechanisms are a set of rules that allow decentralized networks to agree on a single version of the truth without a central authority figure.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;why-ethereums-consensus-mechanism-changed&#34;&gt;Why Ethereum&amp;rsquo;s consensus mechanism changed&lt;/h2&gt;
-&lt;hr&gt;
 &lt;p&gt;Last year in response to environmental concerns of how much energy and associated CO2 emissions the Ethereum’s consensus mechanism was using, Ethereum upgraded its consensus mechanism from one relying on computational effort to capital at risk.&lt;/p&gt;
 &lt;p&gt;The network’s consensus mechanism was upgraded successfully on 15 September 2022, resulting in an instant decrease of 99.99% is network energy usage.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/customer-discovery/eth-staking/c2a4a4e411dc655e4eced900da39c2d6.png&#34; alt=&#34;img2&#34;&gt;&lt;/p&gt;
-&lt;div align=&#34;center&#34;&gt; *[Cambridge Blockchain Network Sustainability Index](https://ccaf.io/cbnsi/ethereum/ethereum_merge)* &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://ccaf.io/cbnsi/ethereum/ethereum_merge&#34;&gt;Cambridge Blockchain Network Sustainability Index&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/customer-discovery/eth-staking/9698764b2afae25f4f676a37b3fedd91.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;&lt;a href=&#34;https://digiconomist.net/ethereum-energy-consumption&#34;&gt;Via Digiconomist&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;network-participation-change&#34;&gt;Network participation change&lt;/h2&gt;
-&lt;hr&gt;
 &lt;p&gt;The Ethereum network upgrade reduced the network energy requirements, but also incorporated a system where more individual participants in the Ethereum network can participate in it&amp;rsquo;s consensus mechanism via a new action known as “Staking”.&lt;/p&gt;
 &lt;h3 id=&#34;-miners-are-out&#34;&gt;🚫 Miners are out&lt;/h3&gt;
 &lt;p&gt;In the Proof of work phase of Ethereum,  participants called “miners” used powerful computers to solve difficult, arbitrary math puzzles to develop network consensus. By solving hard problems proves that resources were expended by the miner. These costs make it extremely difficult to justify attacking the network and breaking Bitcoin.&lt;/p&gt;
@@ -39,7 +39,6 @@
 &lt;p&gt;In the current proof of stake phase of Ethereum the role of miner are replaced by the role of validator. Validators are responsible for verifying the transactions and adding new blocks to the blockchain. They are rewarded for their work with new ETH can can also be punished by losing ETH if they break any rules.&lt;/p&gt;
 &lt;p&gt;There are 3 ways to participate in the new consensus mechanism and gain rewards in the Proof of Stake system.&lt;/p&gt;
 &lt;h2 id=&#34;solo-staking&#34;&gt;Solo-staking&lt;/h2&gt;
-&lt;hr&gt;
 &lt;p&gt;The most direct way to participate in the Ethereum consensus mechanism is to run your own validator node &amp;ndash; something known as &amp;ldquo;solo-staking&amp;rdquo;. There are some requirements involved here namely:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;You need 32 ETH as a capital requirement (~$55,000 USD as of Oct 2023).&lt;/li&gt;
@@ -51,7 +50,6 @@
 &lt;p&gt;This option is the most &amp;ldquo;home grown&amp;rdquo; option and as a result you gain unmediated access to the full reward of validating blocks and transactions, but incurring operational costs.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s very cool to see some hardware providers such as &lt;a href=&#34;https://dappnode.com/&#34;&gt;dappnode&lt;/a&gt; attempting to consumerize this experience with dedicated hardware for staking akin to an Apple TV!&lt;/p&gt;
 &lt;h2 id=&#34;decentralized-staking-pools&#34;&gt;Decentralized Staking Pools&lt;/h2&gt;
-&lt;hr&gt;
 &lt;p&gt;There is an option with more technical support and lower capital requirements that is worth mentioning and that is Staking Pools. This involves aggregating the stakes of multiple participants to reach the 32 ETH required for a validator. In this pooled model the rewards and penalties are shared among the participants.&lt;/p&gt;
 &lt;p&gt;The experience of staking pools is highly dependent on the service. The most novel provider in this space I&amp;rsquo;ve seen is &lt;a href=&#34;rocketpool.net&#34;&gt;Rocket Pool&lt;/a&gt;. They have designed a way to form staking pools in a decentralized manner.&lt;/p&gt;
 &lt;p&gt;Rocketpool appeals to participants seeking:&lt;/p&gt;
@@ -64,7 +62,6 @@
 The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is smart contract risk and also notably the price risk on $RPL collateral.&lt;/p&gt;
 &lt;p&gt;There are other projects building decentralized staking pools such as &lt;a href=&#34;https://twitter.com/divastaking&#34;&gt;Diva staking&lt;/a&gt; but this project is still early in development and not yet in full production. From their initial designs it looks as though the risk exposure of the participant it entirely contained to ETH price action and smart contract risk.&lt;/p&gt;
 &lt;h2 id=&#34;liquid-staking&#34;&gt;Liquid Staking&lt;/h2&gt;
-&lt;hr&gt;
 &lt;p&gt;Liquid Staking is the most accessible and popular kind of participation by ETH holders in the consensus mechanism of Ethereum. It allows a participant to stake their ETH while remaining while still having a liquid, transferable representation of their staked assets. This is achieved through receiving a Liquid Staking Token (LST) which is a receipt that can exchanged for the ETH deposit + staking fees or penalties incurred. While more accessible to smaller ETH holders to stake their ETH the LST token is also recognized by DeFi protocols who accept it as a collateral for loans.&lt;/p&gt;
 &lt;p&gt;There are a number of providers of liquid staking the main ones being:&lt;/p&gt;
 &lt;table&gt;
@@ -96,7 +93,6 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
 &lt;p&gt;There is currently controversy around which solution is &amp;ldquo;best&amp;rdquo; and this area is constantly evolving so I expect many changes and new innovations to occur around how ETH Stake is acquired and distributed.&lt;/p&gt;
 &lt;p&gt;At the time of writing Lido is by far the most popular solution comprising ~77% of all liquid staking and ~32% of all ETH Staked. This is due to stETH&amp;rsquo;s integration with other DeFi dApps such as decentralized exchanges and loan providers.&lt;/p&gt;
 &lt;h2 id=&#34;summing-up&#34;&gt;Summing up&lt;/h2&gt;
-&lt;hr&gt;
 &lt;p&gt;This is the first a dip in the water as I learn more about the inner workings of Ethereum. I wanted could have gone much deeper into specific solutions and their mechanics but I will keep this one pretty high level.&lt;/p&gt;
 &lt;p&gt;The TLDR is that Ethereum changed how it worked to allow participants to Stake ETH to validate transactions. This resulted in a wave of solutions to help participants Stake their ETH based on their preferences.&lt;/p&gt;
 &lt;p&gt;We are only one year in post merge so I expect much more innovation to occur into the future!&lt;/p&gt;
@@ -134,7 +130,6 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
 &lt;p&gt;This paradox pervades the entire process when validating product market fit.&lt;/p&gt;
 &lt;p&gt;What results is a confidence game based on a diligent qualification and balance of customer needs (is this valuable to them) business viability (is this valuable to me) and feasibility (is this something we can resource).&lt;/p&gt;
 &lt;h1 id=&#34;acquiring-customer-time&#34;&gt;Acquiring customer time&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/customer-discovery/customer-time1.png&#34; alt=&#34;img1&#34;&gt;&lt;/p&gt;
 &lt;p&gt;First you need to find the customers you want to speak with and then schedule time to meet. This is in my experience the most grinding and monotonous work that requires the most discipline to do consistently.&lt;/p&gt;
 &lt;p&gt;Some terminology:&lt;/p&gt;
@@ -174,7 +169,6 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
 &lt;/ol&gt;
 &lt;p&gt;If you get desperate there are many partnership forms on company websites. Just make sure it is partnership/procurement and not going through to a sales team for a product demo. This will be a waste of your time for both you and them.&lt;/p&gt;
 &lt;h1 id=&#34;producing-value-with-customer-time&#34;&gt;Producing value with customer time&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/customer-discovery/value-from-time.png&#34; alt=&#34;img2&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The faith making process occurs when you use the customer’s time to envisage solutions which resonate with them.&lt;/p&gt;
 &lt;p&gt;The properties of “resonant” are:&lt;/p&gt;
@@ -194,7 +188,6 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
 &lt;p&gt;There is a concept known as the &lt;a href=&#34;https://en.wikipedia.org/wiki/Pareto_principle&#34;&gt;Pareto principle&lt;/a&gt; which states that for many outcomes, roughly 80% of consequences come from 20% of causes. In the world of turning things that resonate into a solution this very much applies.&lt;/p&gt;
 &lt;p&gt;Understanding the 20% that satisfies the 80% of issues de-risks you investing resources into things that are low impact or manifesting more things that are necessary!&lt;/p&gt;
 &lt;h1 id=&#34;developing-customer-commitments&#34;&gt;Developing customer commitments&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;The more time you spend producing value using customer&amp;rsquo;s time the more value you will produce by validating the solution.&lt;/p&gt;
 &lt;p&gt;There are two rules that help develop customer commitments:&lt;/p&gt;
 &lt;ol&gt;
@@ -204,7 +197,6 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
 &lt;p&gt;This creates a “force function” as customers are now trading their time to see it come to life. If these haven&amp;rsquo;t been explicitly defined and communicated the engagement will fade away. When you lose a customer&amp;rsquo;s time it&amp;rsquo;s hard to get it back.&lt;/p&gt;
 &lt;p&gt;Have somewhere where you can track the engagements. CRMs are fine for contact management but the sales stage features will be of little value. The key is to have a place where you can track the contacts who are engaged with next actions and notes. If someone wants to stop meeting series find out why. Things that end an engagement can be important data-points.&lt;/p&gt;
 &lt;h1 id=&#34;in-closing&#34;&gt;In closing&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;Customer discovery is a process of faith making &amp;ndash; between the customer and the development team to overcome the cold start paradox.&lt;/p&gt;
 &lt;p&gt;Faith making is performed by first acquiring customer time. Customer’s time is only valuable if you are able to envisage solutions that resonate and have the structure to develop the commitments.&lt;/p&gt;
 &lt;p&gt;Finally diligence is required to prioritize and map the key components of the solution to de-risk wasting resources.&lt;/p&gt;
@@ -246,7 +238,6 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
 &lt;p&gt;I can’t unsee this now. It’s everywhere&lt;/p&gt;
 &lt;p&gt;I want to go deeper… throughout history… to see the persistence of this pattern through space and time.&lt;/p&gt;
 &lt;h1 id=&#34;parasocial-tv-media&#34;&gt;Parasocial TV Media&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;F.R.I.E.N.D.S exemplifies how parasocial relationships were developed using television.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/joe-rogan/05b91966-bda7-4b2a-8e5c-11b29747693a_918x506.webp&#34; alt=&#34;&#34;&gt;
 &lt;em&gt;&lt;div align=&#34;center&#34;&gt; Chandler and Co are here to distract you from the void. &lt;/div&gt;&lt;/em&gt;&lt;/p&gt;
@@ -273,7 +264,6 @@ I&amp;rsquo;ll be there for you&lt;br&gt;
 &lt;p&gt;The simulation of socializing with people who have something we desire.&lt;/p&gt;
 &lt;p&gt;Repeated interactions with the media are reinforced by ritual.&lt;/p&gt;
 &lt;h1 id=&#34;parasocial-print-media&#34;&gt;Parasocial print media&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;Before TV, muscular heroes would appear episodically on the newsstands and dominate mass media. They were more accessible and engaging than books and exploded in popularity during the 1940s and 1950s.&lt;/p&gt;
 &lt;p&gt;The heroes presented a persona in possession of things the audience, typically young boys desire: muscular strength, courage, and power.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/joe-rogan/abd71c4c-9aaa-4228-bd5b-92406ec1e7ca_600x531.webp&#34; alt=&#34;&#34;&gt;
@@ -282,7 +272,6 @@ I&amp;rsquo;ll be there for you&lt;br&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/joe-rogan/83861f8f-f7ce-460b-a96b-756341a3ff76_1400x1028.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The heroes’ world-saving optimism was a source of hope amidst a society recovering from the great depression.&lt;/p&gt;
 &lt;h1 id=&#34;parasocial-interactions-before-mass-media&#34;&gt;Parasocial interactions before mass media&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/joe-rogan/e4dde96d-8838-4e1a-97ba-aceca6941d54_817x427.webp&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Before mass media, parasocial relationships were fostered through ceremonies, routine, and religious worship. The media personas of this era were gods, heroes, prophets, philosophers, and kings.&lt;/p&gt;
 &lt;p&gt;The masses were told stories of these personas from speakers in close physical proximity.&lt;/p&gt;
@@ -292,7 +281,6 @@ I&amp;rsquo;ll be there for you&lt;br&gt;
 &lt;p&gt;Eastern cultures produced devotion to personas such as the Hindu deities which due to their religious-based interactions, hold cultural relevance to this day.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/joe-rogan/120cdb4f-37c0-4210-b011-23ee2d7086d4_550x633.webp&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;reconciling-my-feelings-for-joe-rogan&#34;&gt;Reconciling my feelings for Joe Rogan&lt;/h1&gt;
-&lt;hr&gt;
 &lt;p&gt;We return to 2022, where I sit and watch clips of Joe and his comedian friends.&lt;/p&gt;
 &lt;p&gt;Are parasocial relationships good or bad?&lt;/p&gt;
 &lt;p&gt;At one end of the spectrum, it is entertainment, a way to relax. On the other end, the consumption of personas strengthen a coping strategy that restrains positive action to improve your situation.&lt;/p&gt;
