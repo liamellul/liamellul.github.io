@@ -207,6 +207,56 @@ The two ky risks for Rocketpool &amp;ldquo;mini-pool&amp;rdquo; participants is 
     
     
     <item>
+      <title>Breaking a Trend with Tokenized Bonds</title>
+      <link>https://liamellul.github.io/posts/tokenized-bonds/</link>
+      <pubDate>Fri, 16 Dec 2022 13:28:31 +0200</pubDate>
+      
+      <guid>https://liamellul.github.io/posts/tokenized-bonds/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&#34;liamellul.substack.com&#34;&gt;my technology newsletter&lt;/a&gt; in December 2022.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/BlackRock.jpeg&#34; alt=&#34;Alt text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;MakerDAO recently experienced an increase in revenues over November driven by the RWA asset category, let&amp;rsquo;s explore what&amp;rsquo;s happening.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/e0927f94-8b79-4301-88d8-8e46d965f86b_2342x730.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 RWAs or Real-World Assets refer to the tokenized representation of traditional financial instruments.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The increase in revenue is specifically impacted by the RWA asset &amp;ldquo;MIP65&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/7d7bfefc-1d30-4f7e-926b-9cda9de02780_2086x650.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mip65-explained&#34;&gt;MIP65 explained&lt;/h2&gt;
+&lt;p&gt;MIP65 is a tokenized asset comprised of:
+• 40% iShares $ Treasury Bond 0-1 yr UCITS ETF (&lt;a href=&#34;https://www.google.com/finance/quote/IB01:LON&#34;&gt;IB01&lt;/a&gt;)
+• 60% iShares $ Treasury Bond 1-3 yr UCITS ETF (&lt;a href=&#34;%5BIBTA%5D(https://www.google.com/finance/quote/IBTA:LON)&#34;&gt;IBTA&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/1.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;MIP65 (Maker Improvement Proposal 65) started from an&lt;a href=&#34;https://forum.makerdao.com/t/informal-poll-using-the-cayman-foundation-to-invest-in-financials-assets-at-scale/9790&#34;&gt; informal post in August 2021&lt;/a&gt; which snowballed &lt;a href=&#34;https://forum.makerdao.com/t/mip65-monetalis-clydesdale-liquid-bond-strategy-execution/13148&#34;&gt;into a $500M allocation&lt;/a&gt; to diversify out of USDC and earn extra yield.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/2.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So far the strategy has earned ~$2M since its inception in late October 2022.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/9393d1d9-2363-4b33-99ab-49a7e556fd7c_1468x460.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;With less demand for borrowing DAI with ETH collateral and ETH at a relatively lower price, USD-denominated revenues from fees have fallen from the beginning of the year.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/eb641d06-aa2e-42ba-9196-af5db37cb5b1_783x448.png.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So because of this —revenue from MIP65 yield stands out dramatically.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://liamellul.github.io/images/tokenized-bonds/7d7bfefc-1d30-4f7e-926b-9cda9de02780_2086x650.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It will be interesting to see if other protocols consider off-chain yield during periods of low demand.&lt;/p&gt;
+&lt;h1 id=&#34;off-chain-yield-on-chain&#34;&gt;Off-chain yield, on-chain&lt;/h1&gt;
+&lt;p&gt;While writing this article Centrifuge announced a partnership with BlockTower and MakerDAO to bring $220M of credit to DeFi which indicates that originators are seeing the opportunity for on-chain demand.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We&amp;#39;re thrilled to announce that $220 million in Real-World Assets (RWA) are coming to Centrifuge, in partnership with &lt;a href=&#34;https://twitter.com/BlockTower?ref_src=twsrc%5Etfw&#34;&gt;@BlockTower&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/MakerDAO?ref_src=twsrc%5Etfw&#34;&gt;@MakerDAO&lt;/a&gt;!&lt;br&gt;&lt;br&gt;BlockTower Credit will be the first institutional credit fund to bring their collateralized lending on-chain.&lt;a href=&#34;https://t.co/WhSMpUWJwk&#34;&gt;https://t.co/WhSMpUWJwk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Centrifuge (@centrifuge) &lt;a href=&#34;https://twitter.com/centrifuge/status/1603075884172222464?ref_src=twsrc%5Etfw&#34;&gt;December 14, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;I am optimistic about the growth prospects of RWA tokens, though I think some RWAs will work better as tokens than others &amp;ndash; and time will tell which assets these are!&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;p&gt;The charts in this article were all taken from &lt;a href=&#34;https://dune.com/SebVentures&#34;&gt;Sébastien Derivaux’s Dune Dashboards&lt;/a&gt; specifically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dune.com/SebVentures/makerdao-mip65&#34;&gt;MakerDAO - MIP65 - Monetalis Clydesdale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dune.com/SebVentures/maker---accounting_1&#34;&gt;MakerDAO - Dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in getting this kind of information in your inbox,&lt;a href=&#34;liamellul.substack.com&#34;&gt; subscribe here&lt;/a&gt; for timely updates like this.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>I ♡ Joe Rogan: a meditation on parasocial relationships</title>
       <link>https://liamellul.github.io/posts/i-love-joe-rogan/</link>
       <pubDate>Fri, 16 Sep 2022 18:26:13 +0200</pubDate>
